@@ -1,5 +1,5 @@
 -> Application is intended for managing contacts and send sms.
--> To send a message 'SmsManager' class is used which takes phone number and the message to be sent
+-> To send a message 'SmsManager' is used which takes phone number and the message to be sent
    and sends it to the person, it uses sim installed in the phone to send sms.
 -> Here is the structure of the source code.
 
