@@ -1,0 +1,44 @@
+-> Application is intended for managing contacts and send sms.
+-> To send a message 'SmsManager' class is used which takes phone number and the message to be sent
+   and sends it to the person, it uses sim installed in the phone to send sms.
+-> Here is the structure of the source code.
+
+DatabaseHandler.java :
+	This class provides methods to create database, store data in the database and also query on the database.
+
+MainActivity.java :
+    The activity consists two tabs 'Contacts' and 'Messages'.
+    Each tab corresponds to fragments 'ContactsTabFragment.java' and 'MeassagesTabFragment.java' respectively.
+
+ContactsTabFragment.java :
+	This fragment consists list of contacts added and the button to add new contact.
+	To implement ListView 'ContactsListAdapter.java' is used.
+
+ContactsListAdapter.java :
+	The adapter takes list of 'Contacts' and deploy it in a list.
+
+Contacts.java :
+	This class is used to store a contact.
+
+MeassagesTabFragment.java :
+	The fragment consists list of sent messages.
+	To implement ListView 'SentMessagesListAdapter.java' is used.
+
+SentMessagesListAdapter.java :
+	The adapter takes list of 'SentMessages' and deploy it in a list.
+
+SentMessage.Java :
+	This class used to store a sent message.
+
+AddNewContactActivity.java :
+	The activity is responsible for adding new contact:
+
+ComposeMessageActivity.java :
+	The activity responsible for composing a message and sending it to person.
+
+ContactActivity.java :
+	The activity displays information about a contact.
+
+
+
+
